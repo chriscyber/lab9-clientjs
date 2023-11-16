@@ -1,0 +1,16 @@
+{
+  "name": "client-js",
+  "version": "1.0.0",
+  "description": "Client side JS and form validation",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christine Anthony",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

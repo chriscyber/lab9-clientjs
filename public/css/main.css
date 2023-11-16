@@ -1,3 +1,51 @@
 /*
 You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18pt;
+}
+
+body {
+  background: #c2c2d6;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+/* #formLabel {
+  font-size: 14pt;
+} */
+
+input[type="text"],
+select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 10%;
+  background-color: #311db0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#error {
+  color: darkred;
+}
