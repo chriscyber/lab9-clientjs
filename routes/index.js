@@ -8,8 +8,8 @@ const constructorMethod = (app) => {
   //   res.sendFile(path.resolve(__dirname, "static/homepage.html"));
   // });
   app.use("*", (req, res) => {
-    res.redirect("/static/homepage");
-    //res.status(404).json({ error: "Rounte not found" });
+    //res.redirect("/");
+    res.status(404).json({ error: "Rounte not found" });
   });
 };
 

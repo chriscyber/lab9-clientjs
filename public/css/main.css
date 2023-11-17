@@ -10,8 +10,12 @@ body {
   font-size: 18pt;
 }
 
+h1 {
+  color: blueviolet;
+}
+
 body {
-  background: #c2c2d6;
+  background: #d0c2d6;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
@@ -26,7 +30,7 @@ main {
 
 input[type="text"],
 select {
-  width: 25%;
+  width: 35%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -37,7 +41,7 @@ select {
 
 button[type="submit"] {
   width: 10%;
-  background-color: #311db0;
+  background-color: blueviolet;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -46,6 +50,25 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 12pt;
+  text-align: center;
+}
+
 #error {
   color: darkred;
+}
+
+.prime {
+  color: #00ff00;
+}
+
+.not-prime {
+  color: #ff0000;
 }

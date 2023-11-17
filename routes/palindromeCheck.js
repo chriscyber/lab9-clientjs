@@ -18,13 +18,13 @@ router.get("/", (req, res) => {
   //res.render("homepage", {}); //cant use res.render without template engine like handlebars.
 });
 
-router.post("/", (req, res) => {
-  console.log("In server route for processing");
+// router.post("/", (req, res) => {
+//   console.log("In server route for processing");
 
-  res.sendFile(path.resolve("static/homepage.html"));
-  let input = req.body;
-  console.log("input: ", input);
-  return input;
-});
+//   res.sendFile(path.resolve("static/homepage.html"));
+//   let input = req.body;
+//   console.log("input: ", input);
+//   return input;
+// });
 
 export default router;

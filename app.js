@@ -19,8 +19,8 @@ const staticDir = express.static(__dirname + "/public");
 app.use("/public", staticDir);
 // import path from "path";
 // app.use(express.static(path.join(__dirname, "public")));
-app.use(express.json()); //body parser
-app.use(express.urlencoded({ extended: true })); //form submissions
+// app.use(express.json()); //body parser - do not need since data staying on client
+// app.use(express.urlencoded({ extended: true })); //form submissions - do not need since form data not submitted to server
 
 configRoutes(app);
 
